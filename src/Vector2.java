@@ -17,4 +17,6 @@ public class Vector2 {
         return "vec2(" + x + ", " + y + ")";
     }
 
+
+
 }
