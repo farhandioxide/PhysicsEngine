@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0fdd48d-6452-4d4d-87fb-55f8d9639187" name="Changes" comment="project creation">
+      <change afterPath="$PROJECT_DIR$/src/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollisionDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContactSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DebugRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Integrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhysicsWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Renderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vector2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "farhandioxide"
+  }
+}]]></component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="dacdb265-28dd-48a5-8683-316ecf9905a6" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/farhandioxide/PhysicsEngine.git",
+    "accountId": "dacdb265-28dd-48a5-8683-316ecf9905a6"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000021271544" />
+      <entry key="S5" value="1.0008533352104656" />
+      <entry key="S10" value="1.0292269179334703" />
+      <entry key="S30" value="1.3486295133416701" />
+      <entry key="S60" value="1.912951334788471" />
+      <entry key="M2" value="3.8129772345648782" />
+      <entry key="M5" value="22.14175851554608" />
+      <entry key="M10" value="66.1738534079162" />
+      <entry key="M15" value="100.16755991463428" />
+      <entry key="M30" value="154.82589561310888" />
+      <entry key="H1" value="193.90374709728968" />
+      <entry key="H2" value="217.38593549271528" />
+      <entry key="H4" value="230.274841915693" />
+      <entry key="D1" value="241.65197883167414" />
+      <entry key="W1" value="243.66305416923828" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.3173846350166298E-306" />
+      <entry key="S2" value="5.432751687660261E-77" />
+      <entry key="S5" value="5.499911254877923E-31" />
+      <entry key="S10" value="1.2631455792416604E-15" />
+      <entry key="S30" value="2.340994500669167E-5" />
+      <entry key="S60" value="0.009627038651860093" />
+      <entry key="M2" value="0.218099773271251" />
+      <entry key="M5" value="1.842255902902991" />
+      <entry key="M10" value="4.399530947725635" />
+      <entry key="M15" value="6.051243633470737" />
+      <entry key="M30" value="8.454179756955954" />
+      <entry key="H1" value="10.052349227158263" />
+      <entry key="H2" value="10.977679831645096" />
+      <entry key="H4" value="11.476054131123727" />
+      <entry key="D1" value="11.91084059564888" />
+      <entry key="W1" value="11.987217206282155" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0038258605374489343" />
+      <entry key="MS500" value="0.3285079067873427" />
+      <entry key="S2" value="0.7570707501281932" />
+      <entry key="S5" value="0.8954578753426804" />
+      <entry key="S10" value="0.974247603205828" />
+      <entry key="S30" value="1.3270913920274465" />
+      <entry key="S60" value="1.909064860963825" />
+      <entry key="M2" value="4.01924681675357" />
+      <entry key="M5" value="23.970524062874375" />
+      <entry key="M10" value="70.56113681351744" />
+      <entry key="M15" value="106.2084268166892" />
+      <entry key="M30" value="163.27332025055347" />
+      <entry key="H1" value="203.9522043188723" />
+      <entry key="H2" value="228.36152093758227" />
+      <entry key="H4" value="241.74980893641725" />
+      <entry key="D1" value="253.56263244033883" />
+      <entry key="W1" value="255.6502445175108" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3LFTNVqew6cBQsPETaCxuOCHliG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "F:/Non-academic/Physics Engine/PhysicsEngine/src/Main.java",
+    "settings.editor.selected.configurable": "io.github.pandier.intellijdiscordrp.settings.DiscordSettingsConfigurable",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0fdd48d-6452-4d4d-87fb-55f8d9639187" name="Changes" comment="" />
+      <created>1793048777024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793048777024</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="project creation" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
