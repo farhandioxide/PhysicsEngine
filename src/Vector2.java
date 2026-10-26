@@ -11,7 +11,6 @@ public class Vector2 {
         this.x = x;
         this.y = y;
     }
-
     @Override
     public String toString(){
         return "vec2(" + x + ", " + y + ")";
