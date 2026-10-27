@@ -45,7 +45,7 @@ public class Vector2 {
 
 //    Dot | product	Calculate alignment and help with collision calculations
 
-//    Distance	| Calculate the distance between two points (vector distace)
+//    Distance	| Calculate the distance between two points (vector distance)
 
 //    Negation	| Reverse a vector's direction
 
