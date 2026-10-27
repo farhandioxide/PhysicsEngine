@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0fdd48d-6452-4d4d-87fb-55f8d9639187" name="Changes" comment="Vector2 created and initialized">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vector2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vector2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,91 +24,91 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "farhandioxide"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;farhandioxide&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="dacdb265-28dd-48a5-8683-316ecf9905a6" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/farhandioxide/PhysicsEngine.git",
-    "accountId": "dacdb265-28dd-48a5-8683-316ecf9905a6"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/farhandioxide/PhysicsEngine.git&quot;,
+    &quot;accountId&quot;: &quot;dacdb265-28dd-48a5-8683-316ecf9905a6&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.2984693605775166E-15" />
-      <entry key="MS500" value="0.002038112630024059" />
-      <entry key="S2" value="0.41246728259930693" />
-      <entry key="S5" value="1.4701143615829102" />
-      <entry key="S10" value="2.382953457814299" />
-      <entry key="S30" value="4.405115088583439" />
-      <entry key="S60" value="8.286255328740548" />
-      <entry key="M2" value="15.008842653845418" />
-      <entry key="M5" value="25.54076228797715" />
-      <entry key="M10" value="38.54562713004501" />
-      <entry key="M15" value="57.92769987576779" />
-      <entry key="M30" value="130.03985520823232" />
-      <entry key="H1" value="238.8069418067697" />
-      <entry key="H2" value="340.78364678992165" />
-      <entry key="H4" value="412.0429683784378" />
-      <entry key="D1" value="485.4989143123294" />
-      <entry key="W1" value="499.6026597248118" />
+      <entry key="MS100" value="1.0001902257332045" />
+      <entry key="MS500" value="1.1858906046024467" />
+      <entry key="S2" value="1.9994715130776233" />
+      <entry key="S5" value="3.236147427248683" />
+      <entry key="S10" value="4.709517367531144" />
+      <entry key="S30" value="7.179679238053429" />
+      <entry key="S60" value="9.984358101452987" />
+      <entry key="M2" value="16.245922691719418" />
+      <entry key="M5" value="30.04106790060189" />
+      <entry key="M10" value="50.44602603103039" />
+      <entry key="M15" value="71.2535604276938" />
+      <entry key="M30" value="139.70595964277493" />
+      <entry key="H1" value="255.999483821703" />
+      <entry key="H2" value="380.25596412059525" />
+      <entry key="H4" value="474.48812545988824" />
+      <entry key="D1" value="577.2049335323973" />
+      <entry key="W1" value="597.527178901919" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0000000000006963" />
-      <entry key="M2" value="1.0000020819714968" />
-      <entry key="M5" value="1.0278272276177216" />
-      <entry key="M10" value="1.8971489650385096" />
-      <entry key="M15" value="4.117490047276638" />
-      <entry key="M30" value="12.692429674287784" />
-      <entry key="H1" value="24.54675050672629" />
-      <entry key="H2" value="34.81760781958986" />
-      <entry key="H4" value="41.660456233794555" />
-      <entry key="D1" value="48.49212995022452" />
-      <entry key="W1" value="49.781497923849024" />
+      <entry key="MS100" value="9.231939736485732E-19" />
+      <entry key="MS500" value="2.521517938547682E-4" />
+      <entry key="S2" value="0.20170173977181757" />
+      <entry key="S5" value="1.220110980526024" />
+      <entry key="S10" value="2.6687857429570396" />
+      <entry key="S30" value="5.049683579510428" />
+      <entry key="S60" value="6.511382975066561" />
+      <entry key="M2" value="8.550575776159494" />
+      <entry key="M5" value="12.736828385127358" />
+      <entry key="M10" value="18.643399303544562" />
+      <entry key="M15" value="23.51473115140385" />
+      <entry key="M30" value="35.34075472666348" />
+      <entry key="H1" value="50.93759391079843" />
+      <entry key="H2" value="65.5020523301675" />
+      <entry key="H4" value="75.80894477966207" />
+      <entry key="D1" value="86.5651586464955" />
+      <entry key="W1" value="88.64583657260802" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0743742836024127E-7" />
-      <entry key="MS500" value="0.04205494783289221" />
-      <entry key="S2" value="0.8424006927244908" />
-      <entry key="S5" value="2.1738333152111644" />
-      <entry key="S10" value="3.218900002517792" />
-      <entry key="S30" value="5.344179587770214" />
-      <entry key="S60" value="9.251467461362099" />
-      <entry key="M2" value="15.98729170888149" />
-      <entry key="M5" value="26.556927977493284" />
-      <entry key="M10" value="40.43290607930568" />
-      <entry key="M15" value="62.03288949706228" />
-      <entry key="M30" value="142.71555852026114" />
-      <entry key="H1" value="263.338265181796" />
-      <entry key="H2" value="375.5905535040155" />
-      <entry key="H4" value="453.69709306084417" />
-      <entry key="D1" value="533.9898273569357" />
-      <entry key="W1" value="549.3839794697536" />
+      <entry key="MS100" value="0.002788129369876941" />
+      <entry key="MS500" value="0.403314965425073" />
+      <entry key="S2" value="1.7052290370912033" />
+      <entry key="S5" value="4.006508871835479" />
+      <entry key="S10" value="6.989814904390327" />
+      <entry key="S30" value="12.006377189230824" />
+      <entry key="S60" value="16.344702223363797" />
+      <entry key="M2" value="24.683132907726833" />
+      <entry key="M5" value="42.69771453327271" />
+      <entry key="M10" value="69.02288964195266" />
+      <entry key="M15" value="94.70907267072076" />
+      <entry key="M30" value="174.99999882820802" />
+      <entry key="H1" value="306.9033081366908" />
+      <entry key="H2" value="445.73650635588456" />
+      <entry key="H4" value="550.2847207739845" />
+      <entry key="D1" value="663.7677611361894" />
+      <entry key="W1" value="686.1726749939942" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3LFTNVqew6cBQsPETaCxuOCHliG" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -115,29 +117,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "F:/Non-academic/Physics Engine/PhysicsEngine/src/Main.java",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;F:/Non-academic/Physics Engine/PhysicsEngine/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
