@@ -13,9 +13,9 @@ void main() {
 
     //Test______________________________________>
 
-    double x = position.length();
+    double x = position.magnitude();
     System.out.println(x);
-    double y = position.length(position2); //override
+    double y = position.magnitude(position2); //override
     System.out.println(y);
 
 
