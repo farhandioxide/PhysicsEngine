@@ -8,8 +8,12 @@ void main() {
     Vector2 p = new Vector2(6,7);
     Vector2 p1 = new Vector2(3,4);
 
+    Body b = new Body(p, 2, false);
+    b.applyForce(p1);
+
+
     //print object log
-    System.out.println(p + "\n" + p1);
+    System.out.println(p + " and " + p1);
 
     //Test______________________________________> 01
 
@@ -37,6 +41,11 @@ void main() {
 
 
     //Test______________________________________> 02
+    System.out.println(" ");
+
+    System.out.println();
+    System.out.println();
+    System.out.println();
 
 
 

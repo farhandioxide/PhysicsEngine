@@ -2,12 +2,12 @@
 
 public class Body {
 
-    Vector2 position;
-    Vector2 velocity;
-    Vector2 acceleration;
-    Vector2 force;
-    double mass;
-    boolean isStatic;
+    private Vector2 position;
+    private Vector2 velocity;
+    private Vector2 acceleration;
+    private Vector2 force;
+    private double mass;
+    private boolean isStatic;
 
 
      public Body(){
@@ -15,21 +15,26 @@ public class Body {
          this.velocity = new Vector2();
          this.acceleration = new Vector2();
          this.force = new Vector2();
-         this.mass = 0;
-         this.isStatic = true;
+         this.mass = 1.0;
+         this.isStatic = false;
      }
      public Body(Vector2 position, double mass, boolean isStatic){
+
+         if (position == null) {
+             throw new IllegalArgumentException("Position cannot be null");
+         }
+
+         if (!isStatic && (!Double.isFinite(mass) || mass <= 0)) {
+             throw new IllegalArgumentException("Dynamic body must have positive finite mass");
+         }
+
          this.position = position;
          this.velocity = new Vector2();
          this.acceleration = new Vector2();
          this.force = new Vector2();
-         this.mass = mass;
+
          this.isStatic = isStatic;
-
-         if(!isStatic && Double.isFinite(mass)){
-             throw new IllegalArgumentException("Dynamic body must have positive mass");
-         }
-
+         this.mass = isStatic ? 0.0 : mass;
      }
 
 
@@ -39,6 +44,34 @@ public class Body {
          }else{
              return 1.0/mass;
          }
+     }
+
+     public void applyForce(Vector2 force){
+         if(isStatic){
+             return;
+         }
+         this.force = this.force.add(force);
+     }
+
+     public void clearForces(){
+         this.force = new Vector2();
+     }
+
+     public void applyAcceleration(Vector2 velocity, double time){
+
+         if (isStatic) {
+             return;
+         }
+
+         this.velocity = this.velocity.add(this.acceleration.scalarMult(time));
+     }
+
+     public void calculateAcceleration(){
+         if(isStatic){
+             return;
+         }
+
+         this.acceleration = this.force.scalarMult(this.inverseMass());
      }
 
 
