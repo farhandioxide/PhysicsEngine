@@ -47,17 +47,17 @@ public class Body {
      }
 
      public void applyForce(Vector2 force){
+
+         if (force == null) {
+             throw new IllegalArgumentException("Force cannot be null");
+         }
+
          if(isStatic){
              return;
          }
          this.force = this.force.add(force);
      }
-
-     public void clearForces(){
-         this.force = new Vector2();
-     }
-
-     public void applyAcceleration(Vector2 velocity, double time){
+     public void applyAcceleration(double time){ //move to intefrator
 
          if (isStatic) {
              return;
@@ -73,14 +73,16 @@ public class Body {
 
          this.acceleration = this.force.scalarMult(this.inverseMass());
      }
+    public void updatePosition(double time){
+         if(isStatic){
+             return;
+         }
 
+         this.position = this.position.add(this.velocity.scalarMult(time));
+    }
+    public void clearForces(){
+        this.force = new Vector2();
+    }
 
-
-//    position	- Vector2	- Where the object is
-//    velocity	- Vector2	 - How fast and in which direction it moves
-//    acceleration	- Vector2	- How its velocity changes
-//    force -	Vector2 -	The accumulated force acting on it
-//    mass	 - double	- Its mass
-//    isStatic -	boolean	- Whether it should remain fixed
 
 }
