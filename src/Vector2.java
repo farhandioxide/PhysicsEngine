@@ -3,9 +3,8 @@
 
 public class Vector2 {
 
-    double x;
-    double y;
-//  double z;
+    private double x;
+    private double y;
 
     public Vector2(double x, double y){
         this.x = x;
@@ -21,8 +20,15 @@ public class Vector2 {
         return "Vector2D(" + x + ", " + y + ")";
     }
 
-    //get length
+    public double getX(){
+        return x;
+    }
 
+    public double getY(){
+        return y;
+    }
+
+    //get length
     public double magnitude(){
         return Math.sqrt((x*x) + (y*y));
     } //potential error fix: Try except - if the object created in vector suggest to create in double
@@ -103,6 +109,18 @@ public class Vector2 {
     }
 
     // Array of vectors. (V1)
+
+    // more on vector
+//    magnitudeSquared()	Avoid square root calculations	High
+//    cross()	2D cross product (scalar result)	High
+//    angle()	Calculate vector direction	High
+//    rotate()	Rotate a vector	High
+//    lerp()	Linear interpolation	High
+//    limit()	Limit vector magnitude	Medium
+//    perpendicular()	Calculate perpendicular vector	High
+//    set()	Modify vector coordinates	Depends on design
+//    multiply()	Scalar multiplication	Already implemented
+//    divide()	Scalar division	High
 
 
 
