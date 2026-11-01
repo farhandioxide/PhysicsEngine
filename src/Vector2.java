@@ -23,27 +23,33 @@ public class Vector2 {
     public double getX(){
         return x;
     }
+    public void setX(double x){
+        this.x = x;
+    }
 
     public double getY(){
         return y;
+    }
+    public void setY(double y){
+        this.y = y;
     }
 
     //get length
     public double magnitude(){
         return Math.sqrt((x*x) + (y*y));
     } //potential error fix: Try except - if the object created in vector suggest to create in double
-    public double distance(Vector2 vec){
-        double dx = this.x - vec.x;
-        double dy = this.y - vec.y;
+    public double distance(Vector2 vector){
+        double dx = this.x - vector.x;
+        double dy = this.y - vector.y;
 
         return Math.sqrt(dx*dx + dy*dy);
     }
 
 //    Addition |	Combine vectors for velocity changes
 
-    public Vector2 add(Vector2 V){ //[potential error fix: Try except - if the object created in double suggest to create in vector (E1)]
-        double a = this.x + V.x;
-        double b = this.y + V.y;
+    public Vector2 add(Vector2 vector){ //[potential error fix: Try except - if the object created in double suggest to create in vector (E1)]
+        double a = this.x + vector.x;
+        double b = this.y + vector.y;
 
         return new Vector2(a,b);
     }
@@ -57,18 +63,18 @@ public class Vector2 {
 
 //    Subtraction |	del
 
-    public Vector2 subtract(Vector2 V){  //(E1)
-        double a = this.x - V.x;
-        double b = this.y - V.y;
+    public Vector2 subtract(Vector2 vector){  //(E1)
+        double a = this.x - vector.x;
+        double b = this.y - vector.y;
 
         return new Vector2(a,b);
     }
 
 //    Scalar | multiplication	to Scale a vector by a number
 
-    public Vector2 scalarMult(double X){ //(E1)
-        double a = this.x * X;
-        double b = this.y * X;
+    public Vector2 scalarMulti(double scalarValue){ //(E1)
+        double a = this.x * scalarValue;
+        double b = this.y * scalarValue;
 
         return new Vector2(a,b);
     }
@@ -93,9 +99,9 @@ public class Vector2 {
 
 //    Dot | product	Calculate alignment and help with collision calculations
 
-    public double dot(Vector2 V){ //(E1)
-        double a = this.x * V.x;
-        double b = this.y * V.y;
+    public double dot(Vector2 vector){ //(E1)
+        double a = this.x * vector.x;
+        double b = this.y * vector.y;
         return a+b;
     }
 

@@ -1,5 +1,3 @@
-
-
 public class Body {
 
     private Vector2 position;
@@ -57,13 +55,8 @@ public class Body {
          }
          this.force = this.force.add(force);
      }
-     public void applyAcceleration(double time){ //move to intefrator
-
-         if (isStatic) {
-             return;
-         }
-
-         this.velocity = this.velocity.add(this.acceleration.scalarMult(time));
+     public Vector2 getForce(){
+         return force;
      }
 
      public void calculateAcceleration(){
@@ -71,14 +64,14 @@ public class Body {
              return;
          }
 
-         this.acceleration = this.force.scalarMult(this.inverseMass());
+         this.acceleration = this.force.scalarMulti(this.inverseMass());
      }
     public void updatePosition(double time){
          if(isStatic){
              return;
          }
 
-         this.position = this.position.add(this.velocity.scalarMult(time));
+         this.position = this.position.add(this.velocity.scalarMulti(time));
     }
     public void clearForces(){
         this.force = new Vector2();

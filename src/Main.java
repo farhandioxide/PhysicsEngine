@@ -5,6 +5,10 @@ void main() {
     //Test Field -------------------- >
 
     //Object Creation
+
+    Scanner input = new Scanner(System.in);
+    Vector2[] forces = new Vector2[5];
+
     Vector2 p = new Vector2(6,7);
     Vector2 p1 = new Vector2(3,4);
 
@@ -28,7 +32,7 @@ void main() {
 //    Vector2 a = p1.subtract(p);
 //    System.out.println(a);
 //
-//    Vector2 b = p1.scalarMult(7);
+//    Vector2 b = p1.scalarMulti(7);
 //    System.out.println(b);
 //
 //    Vector2 c = p.normalize();
@@ -46,6 +50,27 @@ void main() {
     System.out.println();
     System.out.println();
     System.out.println();
+
+    for(int i=0; i<forces.length; i++){
+        System.out.println("Enter Vector no. "+(i+1)+": ");
+        System.out.print("Enter x: ");
+        double x = input.nextDouble();
+        System.out.print("Enter y: ");
+        double y = input.nextDouble();
+
+        forces[i] = new Vector2(x,y);
+    }
+
+    for (int i=0; i<forces.length; i++){
+        System.out.println(forces[i]);
+    }
+    Body B = new Body();
+    for (int i=0; i<forces.length; i++){
+
+        B.applyForce(forces[i]);
+    }
+    System.out.println("Total force: "+B.getForce());
+
 
 
 
