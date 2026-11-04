@@ -45,36 +45,50 @@ void main() {
 
 
     //Test______________________________________> 02
-    System.out.println(" ");
 
-    System.out.println();
-    System.out.println();
-    System.out.println();
-
-    for(int i=0; i<forces.length; i++){
-        System.out.println("Enter Vector no. "+(i+1)+": ");
-        System.out.print("Enter x: ");
-        double x = input.nextDouble();
-        System.out.print("Enter y: ");
-        double y = input.nextDouble();
-
-        forces[i] = new Vector2(x,y);
-    }
-
-    for (int i=0; i<forces.length; i++){
-        System.out.println(forces[i]);
-    }
-    Body B = new Body();
-    for (int i=0; i<forces.length; i++){
-
-        B.applyForce(forces[i]);
-    }
-    System.out.println("Total force: "+B.getForce());
+//    System.out.println(" ");
+//
+//    System.out.println();
+//    System.out.println();
+//    System.out.println();
+//
+//    for(int i=0; i<forces.length; i++){
+//        System.out.println("Enter Vector no. "+(i+1)+": ");
+//        System.out.print("Enter x: ");
+//        double x = input.nextDouble();
+//        System.out.print("Enter y: ");
+//        double y = input.nextDouble();
+//
+//        forces[i] = new Vector2(x,y);
+//    }
+//
+//    for (int i=0; i<forces.length; i++){
+//        System.out.println(forces[i]);
+//    }
+//    Body B = new Body();
+//    for (int i=0; i<forces.length; i++){
+//
+//        B.applyForce(forces[i]);
+//    }
+//    System.out.println("Total force: "+B.getForce());
+//
+//
 
 
 
 
     //Test______________________________________> 03
+
+    Body C = new Body(new Vector2(1,2), 2, false);
+
+    C.applyForce(new Vector2(3,5));
+    System.out.print(C.getForce());
+    Integrator I = new Integrator(10);
+    I.integrate(C);
+    System.out.print(C.getForce());
+    System.out.print(C.getPosition());
+    System.out.print(C.getVelocity());
+
 
 
 

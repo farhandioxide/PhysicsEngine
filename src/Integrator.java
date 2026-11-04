@@ -11,18 +11,13 @@ public class Integrator {
         this.dt = dt;
     }
 
-//    public void applyAcceleration(double time){
-//
-//        if (isStatic) {
-//            return;
-//        }
-//
-//        this.velocity = this.velocity.add(this.acceleration.scalarMulti(time));
-//    }
-
     public void integrate(Body body){
+        if (body == null) {
+            throw new IllegalArgumentException("Body cannot be null");
+        }
+
         body.calculateAcceleration();
-        //  Update velocity
+        body.updateVelocity(dt);
         body.updatePosition(dt);
         body.clearForces();
     }

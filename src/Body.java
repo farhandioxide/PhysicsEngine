@@ -26,7 +26,7 @@ public class Body {
              throw new IllegalArgumentException("Dynamic body must have positive finite mass");
          }
 
-         this.position = position;
+         this.position = new Vector2(position.getX(), position.getY());;
          this.velocity = new Vector2();
          this.acceleration = new Vector2();
          this.force = new Vector2();
@@ -55,9 +55,9 @@ public class Body {
          }
          this.force = this.force.add(force);
      }
-     public Vector2 getForce(){
-         return force;
-     }
+    public Vector2 getForce(){
+        return new Vector2(force.getX(), force.getY());
+    }
 
      public void calculateAcceleration(){
          if(isStatic){
@@ -65,6 +65,12 @@ public class Body {
          }
 
          this.acceleration = this.force.scalarMulti(this.inverseMass());
+     }
+     public void updateVelocity(double time){
+         if(isStatic){
+             return;
+         }
+         this.velocity = this.velocity.add(this.acceleration.scalarMulti((time)));
      }
     public void updatePosition(double time){
          if(isStatic){
@@ -77,5 +83,13 @@ public class Body {
         this.force = new Vector2();
     }
 
+
+    public Vector2 getPosition(){
+        return new Vector2(position.getX(), position.getY());
+    }
+
+    public Vector2 getVelocity(){
+        return new Vector2(velocity.getX(), velocity.getY());
+    }
 
 }
