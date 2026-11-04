@@ -34,8 +34,6 @@ public class Body {
          this.isStatic = isStatic;
          this.mass = isStatic ? 0.0 : mass;
      }
-
-
      public double inverseMass(){
          if(isStatic){
              return 0.0;
@@ -43,6 +41,8 @@ public class Body {
              return 1.0/mass;
          }
      }
+
+     //forces
 
      public void applyForce(Vector2 force){
 
@@ -59,7 +59,9 @@ public class Body {
         return new Vector2(force.getX(), force.getY());
     }
 
-     public void calculateAcceleration(){
+    //Integrator
+
+    public void calculateAcceleration(){
          if(isStatic){
              return;
          }
@@ -83,6 +85,7 @@ public class Body {
         this.force = new Vector2();
     }
 
+    //position
 
     public Vector2 getPosition(){
         return new Vector2(position.getX(), position.getY());
